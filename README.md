@@ -10,7 +10,7 @@ Installation
 You can install Resource.js using NPM.
 
 ```
-npm install --save resourcejs
+npm install --save miyoda-resourcejs
 ```
 
 Usage
