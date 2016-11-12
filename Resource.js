@@ -387,6 +387,8 @@ module.exports = function(app, route, modelName, model) {
           var populate = this.getParamQuery(req, 'populate');
           if (populate) {
             debug.index('Populate: ' + populate);
+          } else {
+            populate = '__NONE__';
           }
 
           // Next get the items within the index.
